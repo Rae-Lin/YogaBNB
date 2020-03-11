@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yoga B&B | 房型介紹</title>
+    <link rel="short icon" href="./images/icon.svg">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="./css/dist/hamburgers.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <!-- <div id="body_mask"> -->
+    <header>
+        <nav>
+            <h1><a href="index.html">Yoga B&B</a></h1>
+            <button class="hamburger hamburger--slider" type="button" id="menu">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <ul id="navi">
+                <li class="moreyoga">
+                    <a href="aboutus.html">關於享宿</a>
+                    <ul class="sub_nav">
+                        <li><a href="yoga_a.html">瑜珈課程</a></li>
+                        <li><a href="yoga_f.html">瑜珈設施</a></li>
+                    </ul>
+                </li>
+                <li class="sub_nav_none"><a href="yoga_a.html">- 瑜珈課程 -</a></li>
+                <li class="sub_nav_none"><a href="yoga_f.html">- 瑜珈設施 -</a></li class="sub_nav_none">
+                <li class="p_on"><a href="rooms.html">房型介紹</a></li>
+                <li><a href="photowall.html">享宿相廊</a></li>
+                <li><a href="infomation.html">享宿資訊</a></li>
+                <div class="clearfix"></div>
+            </ul>
+            <div class="clearfix"></div>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+
+    <div class="wrap">
+        <div class="rooms_title">
+            <h2><img src="./images/title_line.png" alt=""> 房型介紹 <img src="./images/title_line.png" alt=""></h2>
+        </div>
+        <div class="room_content">
+            <div class="room_type">
+                <div class="room_col">
+                    <div class="room_101">
+                        <div class="room_link" id="room_btn_1">
+                            <a href=#></a>
+                            <p class="room_num">101．典雅雙人房</p>
+                            <div class="mask"></div>
+                            <img src="./images/room/room_01.jpg" alt="" class="room_img">
+                        </div>
+                        <div class="room_window" id="room_window_1" data-aos="zoom-in">
+                            <div class="room_txt">
+                                <h4>101．典雅雙人房</h4>
+                                <h6>躺在床上就能看到窗外的綠色景觀和藍天</h6>
+                                <p class="room_txt_detail">含早餐、迎賓茶點、約9坪<br> 位於1樓、陽台景觀、1張雙人床
+                                </p>
+                                <table>
+                                    <tr>
+                                        <td>平日</td>
+                                        <td>$3,000&nbsp;/&nbsp;晚</td>
+                                    </tr>
+                                    <tr>
+                                        <td>假日、國定假日</td>
+                                        <td>$3,800&nbsp;/&nbsp;晚</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="room_photo">
+                                <div class="room_wrap">
+                                    <img src="./images/room_slider_1.jpg" alt="">
+                                    <img src="./images/room_slider_2.jpg" alt="">
+                                    <img src="./images/room_slider_3.jpg" alt="">
+                                </div>
+                                <div class="padi padi_left"><input type="button" id="btnLeft" disabled></div>
+                                <div class="padi padi_right"> <input type="button" id="btnRight"></div>
+                            </div>
+                            <div>
+                                <img src="./images/close_window.png" alt="" class="close">
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="room_102">
+                        <div class="room_link" id="room_btn_2">
+                            <a href=#></a>
+                            <p class="room_num">102．豪華三人房</p>
+                            <div class="mask"></div>
+                            <img src="./images/room/room_02.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="room_103">
+                        <div class="room_link" id="room_btn_3">
+                            <a href=#></a>
+                            <p class="room_num">103．泳池雙人房</p>
+                            <div class="mask"></div>
+                            <img src="./images/room/room_03.jpg" alt="">
+                        </div>
+                        <div class="room_window"></div>
+                    </div>
+                </div>
+                <div class="room_col">
+                    <div class="room_201">
+                        <div class="room_link" id="room_btn_4">
+                            <a href=#></a>
+                            <p class="room_num">201．獨棟雙人房</p>
+                            <div class="mask"></div>
+                            <img src="./images/room/room_04.jpg" alt="">
+                        </div>
+                        <div class="room_window"></div>
+                    </div>
+                    <div class="room_202">
+                        <div class="room_link" id="room_btn_5">
+                            <a href=#></a>
+                            <p class="room_num">202．景觀雙人房</p>
+                            <div class="mask"></div>
+                            <img src="./images/room/room_05.jpg" alt="">
+                        </div>
+                        <div class="room_window"></div>
+                    </div>
+                </div>
+                <div class="room_col">
+                    <div class="room_301">
+                        <div class="room_link" id="room_btn_6">
+                            <a href=#></a>
+                            <p class="room_num">301．典雅雙人房</p>
+                            <div class="mask"></div>
+                            <img src="./images/room/room_06.jpg" alt="">
+                        </div>
+                        <div class="room_window"></div>
+                    </div>
+                    <div class="room_302">
+                        <div class="room_link" id="room_btn_7">
+                            <a href=#></a>
+                            <p class="room_num">302．湖景雙人房</p>
+                            <div class="mask"></div>
+                            <img src="./images/room/room_07.jpg" alt="">
+                        </div>
+                        <div class="room_window"></div>
+                    </div>
+                    <p class="now_book">
+                        <a href="#">Booking</a>
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="room_detail">
+				<div class="room_txt">
+					<h4>101．典雅雙人房</h4>
+					<h6>享受躺在床上就能看到窗外的綠色景觀和藍天</h6>
+					<p class="room_txt_detail">含早餐、迎賓茶點、約9坪<br>
+						位於1樓、陽台景觀、1張雙人床</p>
+					<table>
+						<tr>
+							<td>平日</td>
+							<td>$3,000&nbsp;/&nbsp;晚</td>
+						</tr>
+						<tr>
+							<td>假日、國定假日</td>
+							<td>$3,800&nbsp;/&nbsp;晚</td>
+						</tr>
+					</table>
+				</div>
+				<div class="room_photo">
+					<img src="./images/room/room_01-1.jpg" alt="">
+				</div>
+				<div class="clearfix"></div>
+			</div> -->
+            <div class="room_point">
+                <div></div>
+                <div>
+                    <p>每間客房內配備高音質實木藍芽音響，房客可以自在播放喜歡的音樂；房內亦提供原木擴香，搭配純天然萃取精油，讓香氛以最原始、最環保方式縈繞空間，讓您在房間內也能放鬆自在。</p>
+                </div>
+                <div></div>
+            </div>
+            <div class="room_faci">
+                <div class="room_faci_photo"><img src="./images/room/hotel_09.jpg" alt=""></div>
+                <div class="room_faci_txt" data-aos="fade-up">
+                    <h4>設備服務</h4>
+                    <p>訂房說明</p>
+                    <ul>
+                        <li>早餐：與附近友善環境小農合作提供有機健康早餐</li>
+                        <li>另可預約晚餐：西式創意手作無菜單料理 (實際餐食依當日食材而定)</li>
+                        <li>平日定義：星期一至星期四及星期日</li>
+                        <li>假日定義：星期六及國定假日</li>
+                        <li>加人服務可加床：包含枕頭、被子、備品、早餐，每人 2,200 元</li>
+                        <li>提供位於一樓之房間可供行動不便者及需攜帶大型行李的旅人入住</li>
+                        <li>以上房型與價格資訊僅供參考，詳情以旅宿官網為準；建議訂房前再次與主人確認價格與相關資訊</li>
+                    </ul>
+                    <p>延退規定</p>
+                    <ul>
+                        <li>旅人於住宿日 14 日前通知，可退還已付金額100%</li>
+                        <li>旅人於住宿日 9-13 日前通知，可退還已付金額70%</li>
+                        <li>旅人於住宿日 7-8 日前通知，可退還已付金額50%</li>
+                        <li>旅人於住宿日 4-6 日前通知，可退還已付金額40%</li>
+                        <li>旅人於住宿日 2-3 日前通知，可退還已付金額30%</li>
+                        <li>旅人於住宿日 1 日前通知，可退還已付金額20%</li>
+                        <li>旅人於住宿日當日通知，將不退還已付之金額</li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_content">
+            <div class="footer_box">
+                <p>享宿瑜家</p>
+                <a href="index.html">享宿首頁</a>
+                <a href="aboutus.html">關於享宿</a>
+                <a href="#">線上訂房 </a>
+                <a href="photowall.html">享宿相廊</a>
+            </div>
+            <div class="footer_box">
+                <p>聯絡我們</p>
+                <a href="#">地址：367苗栗縣三義鄉龍騰村5鄰外庄31號</a>
+                <a href="#">電話：0911-222-333</a>
+                <a href="#">Email：yogabnb@gmail.com</a>
+                <a href="#">Line：yogabnb_2019</a>
+            </div>
+            <div class="footer_icon">
+                <p>關注我們</p>
+                <div>
+                    <a href="#" class="f_community"><img src="./images/social media icons_fb.png" alt=""></a>
+                    <a href="#" class="f_community"><img src="./images/social media icons_ig.png" alt=""></a>
+                    <a href="#" class="f_community"><img src="./images/social media icons_line.png" alt=""></a>
+                    <a href="#" class="f_community"><img src="./images/social media icons_yt.png" alt=""></a>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+
+    
+
+
+    <!-- NAV下滑陰影 -->
+    <script>
+        var header_active = function () {
+
+            // 取得使用者滑了多少 px
+            var scroll_top = $(window).scrollTop();
+
+            // 將 scroll_top 數值放到 p.-pos 內容
+            $("p.-pos").html(scroll_top);
+
+
+            if (scroll_top >= 100) {
+                $("header").addClass("header-on");
+            } else {
+                $("header").removeClass("header-on");
+            }
+        };
+
+
+        $(function () {
+
+            // 第三步：偵測頁面滑動時會觸發
+            $(window).scroll(function () {
+                header_active();
+            });
+        });
+    </script>
+
+    <!-- Hamburger變化 -->
+    <script>
+        // Look for .hamburger
+        var hamburger = document.querySelector(".hamburger");
+        // On click
+        hamburger.addEventListener("click", function () {
+            // Toggle class "is-active"
+            hamburger.classList.toggle("is-active");
+            // Do something else, like open/close menu
+        });
+    </script>
+
+    <!-- nav選單縮放 -->
+    <script>
+        $(function () {
+
+            // 點擊按鈕，選單縮放
+            $("#menu").on("click", function () {
+                $("#navi").slideToggle();
+            });
+
+        });
+    </script>
+
+    <!-- animation -->
+    <script>
+        AOS.init({
+			duration: 1500,
+			once: true,
+			mirror: false
+		});
+    </script>
+
+    <!-- 房型跳窗 -->
+    <script>
+        var roomWindow = document.querySelector('.room_window');
+
+        function noWindow() {
+            roomWindow.style.display = ("none");
+            // $('body').removeClass('noscroll');
+            // document.getElementById('body_mask').style.display = ("none");
+        }
+
+        function showWindow(msg) {
+            // setTimeout(function () {
+            //     roomWindow.style.display = ("block");
+            // if (roomWindow.style.display == ("block")) {
+            //     document.querySelector('.close').onclick = noWindow;
+            //     // $('body').addClass('noscroll');
+            //     // document.getElementById('body_mask').style.display  = ("block");
+            // }
+            // }, 500);
+            roomWindow.style.display = ("block");
+            if (roomWindow.style.display == ("block")) {
+                document.querySelector('.close').onclick = noWindow;
+                // $('body').addClass('noscroll');
+                // document.getElementById('body_mask').style.display  = ("block");
+            }
+        }
+
+        function init() {
+            var rooms = document.getElementsByClassName('room_link');
+            for (var i = 0; i < rooms.length; i++) {
+                rooms[i].onclick = showWindow;
+            }
+        }
+
+        window.onload = init;
+
+    </script>
+
+    <!-- 房型輪播 -->
+    <script type="text/javascript">
+        function $id(id) {
+            return document.getElementById(id);
+        }
+
+        window.addEventListener("load", function () {
+            let curIndex = 0;
+            let wrap = document.querySelector(".room_wrap");
+
+            $id('btnRight').onclick = function () {
+                var roomWidth;
+                if (window.innerWidth < 768 && window.innerWidth > 415) {
+                    roomWidth = 358;
+                } else if (window.innerWidth < 414) {
+                    roomWidth = 330;
+                } else {
+                    roomWidth = 540;
+                }
+
+                curIndex++;
+                wrap.style.left = -roomWidth * curIndex + "px";
+                $id('btnLeft').disabled = false;
+                if (curIndex == 2) {
+                    $id('btnRight').disabled = true;
+                }
+            }
+
+            $id('btnLeft').onclick = function () {
+                var roomWidth;
+                if (window.innerWidth < 768 && window.innerWidth > 415) {
+                    roomWidth = 358;
+                } else if (window.innerWidth < 414) {
+                    roomWidth = 330;
+                } else {
+                    roomWidth = 540;
+                }
+                curIndex--;
+                wrap.style.left = -roomWidth * curIndex + "px";
+                $id('btnRight').disabled = false;
+                if (curIndex == 0) {
+                    $id('btnLeft').disabled = true;
+                }
+            }
+        })
+    </script>
+
+
+
+</body>
+
+</html>
